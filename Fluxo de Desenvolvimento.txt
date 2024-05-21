@@ -1,0 +1,21 @@
+. Adicionar o import para o mat-table no products.module.ts.
+  - import {MatTableModule} from '@angular/material/table';
+. Adicionar o template de exemplo da tabela no products.component.html.
+  - https://material.angular.io/components/table/overview#table-basic
+. criar um array no products.component.ts, para preencher o [dataSource] da tabela.
+  - (futuramente será substituído por um serviço de API)
+. Criar a pasta model dentro da pasta de products.
+. Criar uma interface de product dentro da pasta model.
+  - ng g interface products/model/product
+. Após criar a interface, volta no products.component.ts e "Tipar" o array criado.
+. Inicializar o array no construtor desta classe ou diretamente na declaração do array.
+. Atualizar a variável no dataSource do template da tabela no products.component.html.
+. Ajustar os campos da tabela conforme as propriedades criadas na interface.
+. Definir um array de colunas no products.component.ts "displayedColumns".
+
+. Adicionar css do template no products.component.css.
+. Envolver o mat-table em um mat-card.
+
+. Criar os serviços.
+. Declarar o método para listar os itens da tabela.
+. Adicionar injeção de dependência product.component.ts.
