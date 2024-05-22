@@ -19,3 +19,8 @@
 . Criar os serviços.
 . Declarar o método para listar os itens da tabela.
 . Adicionar injeção de dependência product.component.ts.
+
+. Criar um arquivo de teste provisório dentro da pasta de assets.
+. Mover os dados fictícios do courses service para o arquivo json.
+. substituir os dados fictícios no service por uma chamada httpClient.
+  . Criar uma variável para declarar o caminho do arquivo json.
